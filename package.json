@@ -1,0 +1,13 @@
+{
+  "name": "ynov-b3-nosql-support",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "showtime": "node_modules/reveal-md/bin/cli.js src/ynov-b3-nosql-support.md"
+  },
+  "author": "Mike Tardy",
+  "dependencies": {
+    "reveal-md": "^1.1.3"
+  }
+}
