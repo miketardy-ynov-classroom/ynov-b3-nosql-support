@@ -1,4 +1,4 @@
-# Introduction à NoSQL 
+# Introduction en NoSQL 
 
 Ingesup B3 / YNOV / 2018
 
@@ -8,22 +8,22 @@ Ingesup B3 / YNOV / 2018
 
 ---
 
-## Plan 
+## Household
+
+- Mickael Tardy
+- mickael.a.tardy@gmail.com
+- https://www.linkedin.com/in/mickael-tardy-54723235
+- https://github.com/miketardy-ynov-classroom/ynov-b3-nosql-support
+
+---
+
+## Planning 
 
 - Introduction
 - Un peu d'historique 
 - Quelques notions 
 - Cas d'utilisation 
 - Types de base de données 
-
----
-
-## Introduction
-### Intervenant  
-
-- Mickael Tardy
-- mickael.a.tardy@gmail.com
-- https://www.linkedin.com/in/mickael-tardy-54723235
 
 ---
 
@@ -56,7 +56,9 @@ Ingesup B3 / YNOV / 2018
 ---
 
 ## Notions
-### Avant NoSQL : Utilisations inadaptées des bases de données relationnelles 
+### Avant NoSQL
+
+Utilisations inadaptées des bases de données relationnelles
 
 - Stockage d'informations sans modèle rigide
 - Table unique à taille colossale 
@@ -79,20 +81,28 @@ https://en.wikipedia.org/wiki/ACID
 ---
 
 ## Notions 
-### Théorème CAP (en Consistency, Availability, Partition tolerance)
+### Théorème CAP 
+
+en: Consistency, Availability, Partition tolerance
 
 - Cohérence (en: Consistency ) : tous les clients du système accèdent et voient les mêmes données;
 - Disponibilité (en: Availability) : Tous les client peuvent lire et écrire;
 - Tolérance au partitionnement (en: Partition Tolerance) : le système garantit de donner une réponse malgré le partitionment de l'infrastructure.
 
-https://www.xenonstack.com/blog/static/public/uploads/media/cap-theorem-nosql-databases.png
+---
+
+## Notions 
+### Théorème CAP 
+
+![Théorème CAP](./cap-theorem-nosql-databases.png)
 
 ---
 ## Notions
 ### BASE
 
 en: Basically Available, Soft state, Eventual consistency
-- Basically Available: disponibilité sur principe. Bien qu'une transaction peut ne pas générer une réponse, le système fera son mieux pour appliquer la transaction
+
+- Basically Available: disponibilité sur principe. Une transaction peut ne pas générer une réponse, mais le système fera son mieux pour l'appliquer
 - Soft state: l'état du système peut changer même sans aucune entrée de données
 - Eventually consistent: le système deviendra consistant après une certaine période de stabilisation
 
@@ -115,8 +125,6 @@ https://en.wikipedia.org/wiki/Eventual_consistency
 Suivant http://nosql-database.org
 
 NoSQL DEFINITION: Next Generation Databases mostly addressing some of the points: being non-relational, distributed, open-source and horizontally scalable.
-
-The original intention has been modern web-scale databases. The movement began early 2009 and is growing rapidly. Often more characteristics apply such as: schema-free, easy replication support, simple API, eventually consistent / BASE (not ACID), a huge amount of data and more. So the misleading term "nosql" (the community now translates it mostly with "not only sql") should be seen as an alias to something like the definition above. [based on 7 sources, 15 constructive feedback emails (thanks!) and 1 disliking comment . Agree / Disagree? Tell me so! By the way: this is a  strong definition and it is out there here since 2009!]
 
 ---
 
@@ -186,12 +194,17 @@ NoSQL : toute base de données avec un modèle différent du modèle relationnel
 ---
 
 ## Conception 
-### Environnement 
+### Environnement (1)
 
 - Solutions ODM (en: Object Document Mapper) et ORM (Object-Relational Mapping) présentes dans plusieurs langages:  
   - PHP : doctrine
   - Java : Spring Data / Hibernate
   - Javascript : Sequelize, Mongoose
+
+---
+
+## Conception 
+### Environnement (2)
   
 - Plusieurs DBMS ont un langage de requête  
   - CQL pour Cassandra 
@@ -217,12 +230,32 @@ NoSQL : toute base de données avec un modèle différent du modèle relationnel
 ---
 
 ## Conception 
+### Savoir s'adapter
+
+- Appliquer la théorème CAP
+- Profiter de l'environnement de développement existant
+- Prendre en compte Compétences disponibles 
+- https://db-engines.com
+
+---
+
+## Conception 
 ### Faire un choix judicieux
 
-- Théorème CAP
-- Environnement de développement existant
-- Compétences disponibles 
-- https://db-engines.com
+- Il n'existe pas de "one tool to rule them all"
+- Chaque solution a un contexte où elle performe le mieux
+- Chaque solution a des pours et des contres
+
+---
+
+## Conception 
+### Quelques recettes
+
+- Objets et propriétés connues, objets liés par des rélations : BDD rélationnelle (ex. MySQL)
+- Structures souples et complexes, pas de relations : Document Store (ex. MongoDB)
+- Grosses quantités de données sans relations : Column Store (ex. Cassandra)
+- Besoin d'accès aux donnés rapide : Key-Store (ex. Redis)
+- Plusieurs types d'objets et plusieurs relations souples : Graph Database (ex. Neo4J)
 
 ---
 
@@ -237,3 +270,6 @@ NoSQL : toute base de données avec un modèle différent du modèle relationnel
 - http://vschart.com/compare/jboss-infinispan/vs/redis-database
 - https://db-engines.com/en/systems/Redis
 - https://www.couchbase.com/comparing-couchbase-vs-mongodb
+- https://scalegrid.io/blog/cassandra-vs-mongodb/
+- https://dzone.com/articles/the-top-10-reasons-to-use-cassandra-database
+- https://www.objectrocket.com/blog/how-to/top-5-redis-use-cases
