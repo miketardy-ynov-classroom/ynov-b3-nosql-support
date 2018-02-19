@@ -1,4 +1,4 @@
-# Introduction en NoSQL 
+# Introduction en NoSQL
 
 Ingesup B3 / YNOV / 2018
 
@@ -17,21 +17,21 @@ Ingesup B3 / YNOV / 2018
 
 ---
 
-## Planning 
+## Planning
 
 - Introduction
-- Un peu d'historique 
-- Quelques notions 
-- Cas d'utilisation 
-- Types de base de données 
+- Un peu d'historique
+- Quelques notions
+- Cas d'utilisation
+- Types de base de données
 
 ---
 
-## Introduction 
+## Introduction
 ### Objectifs
 
-- Rappels sur la conception des bases de données 
-- Présentation du monde au delà des bases de données relationnelles 
+- Rappels sur la conception des bases de données
+- Présentation du monde au delà des bases de données relationnelles
 - Mise en pratique
 
 ---
@@ -39,19 +39,19 @@ Ingesup B3 / YNOV / 2018
 ## Introduction
 ### Définitions
 
-- SQL : Structured Query Language 
+- SQL : Structured Query Language
 - DBMS : database-management system
-- RDMS : relational database management system 
+- RDMS : relational database management system
 
 - NoSQL ?
 
 ---
 
-## Notions 
+## Notions
 ### Avant NoSQL
 
 - Bases de données relationnelles avec DBMS MySQL, MSSQL, PostreSQL
-- Bases de fichiers 
+- Bases de fichiers
 
 ---
 
@@ -61,27 +61,27 @@ Ingesup B3 / YNOV / 2018
 Utilisations inadaptées des bases de données relationnelles
 
 - Stockage d'informations sans modèle rigide
-- Table unique à taille colossale 
-- Tables grandissante en horisontale 
+- Table unique à taille colossale
+- Tables grandissante en horisontale
 
 ---
 
-## Notions 
-### ACID 
+## Notions
+### ACID
 
-en: Atomicity, Consistency, Isolation, Durability 
+en: Atomicity, Consistency, Isolation, Durability
 
 * Atomicité : une transaction si réalisée, se fait intégralement (tout ou rien)
 * Cohérence : une transaction transforme le système d'un état valide vers un autre état valide
-* Isolation : les transactions ne peuvent pas être interdépendantes 
+* Isolation : les transactions ne peuvent pas être interdépendantes
 * Durabilité : le résultat de la transaction est demeure enregistré malgré les dysfonctionnements survenus après la transaction
 
 https://en.wikipedia.org/wiki/ACID
 
 ---
 
-## Notions 
-### Théorème CAP 
+## Notions
+### Théorème CAP
 
 en: Consistency, Availability, Partition tolerance
 
@@ -91,8 +91,8 @@ en: Consistency, Availability, Partition tolerance
 
 ---
 
-## Notions 
-### Théorème CAP 
+## Notions
+### Théorème CAP
 
 ![Théorème CAP](./cap-theorem-nosql-databases.png)
 
@@ -111,7 +111,7 @@ https://en.wikipedia.org/wiki/Eventual_consistency
 ---
 
 ## Historique
-### Les origines 
+### Les origines
 
 - Première apparition en 1998 avec l'introduction d'un RDMS sans SQL https://en.wikipedia.org/wiki/Strozzi_NoSQL
 - Première définition nouvelle génération en 2009 http://blog.sym-link.com/2009/05/12/nosql_2009.html
@@ -185,7 +185,7 @@ NoSQL : toute base de données avec un modèle différent du modèle relationnel
 ---
 
 ## Quelques exemples de solutions NoSQL
-### Cool stuff 
+### Cool stuff
 
 - MySQL / JSON
 - MySQL / Document Store
@@ -193,7 +193,7 @@ NoSQL : toute base de données avec un modèle différent du modèle relationnel
 
 ---
 
-## Conception 
+## Conception
 ### Environnement (1)
 
 - Solutions ODM (en: Object Document Mapper) et ORM (Object-Relational Mapping) présentes dans plusieurs langages:  
@@ -203,43 +203,43 @@ NoSQL : toute base de données avec un modèle différent du modèle relationnel
 
 ---
 
-## Conception 
+## Conception
 ### Environnement (2)
-  
+
 - Plusieurs DBMS ont un langage de requête  
-  - CQL pour Cassandra 
-  - MongoDB Query Language 
+  - CQL pour Cassandra
+  - MongoDB Query Language
   - Cypher pour Neo4J
 
 ---
 
-## Conception 
+## Conception
 ### Design de la solution
 
 - Question essentielle : comment choisir ?
 
 ---
 
-## Conception 
+## Conception
 ### Design de la solution
 
-- Identifier le problème 
-- Spécifier le/les modèle(s) de données 
-- Spécifier les exigences 
+- Identifier le problème
+- Spécifier le/les modèle(s) de données
+- Spécifier les exigences
 
 ---
 
-## Conception 
+## Conception
 ### Savoir s'adapter
 
 - Appliquer la théorème CAP
 - Profiter de l'environnement de développement existant
-- Prendre en compte Compétences disponibles 
+- Prendre en compte Compétences disponibles
 - https://db-engines.com
 
 ---
 
-## Conception 
+## Conception
 ### Faire un choix judicieux
 
 - Il n'existe pas de "one tool to rule them all"
@@ -248,7 +248,7 @@ NoSQL : toute base de données avec un modèle différent du modèle relationnel
 
 ---
 
-## Conception 
+## Conception
 ### Quelques recettes
 
 - Objets et propriétés connues, objets liés par des rélations : BDD rélationnelle (ex. MySQL)
@@ -259,7 +259,17 @@ NoSQL : toute base de données avec un modèle différent du modèle relationnel
 
 ---
 
-## Resources 
+## Projet
+
+- Conception du système
+- Identification du modèle de données
+- Spécifications et exigences 
+- Choix des technologies
+- Implémentation en Proof-of-Concept
+
+---
+
+## Resources
 
 - https://db-engines.com
 - https://github.com/orientechnologies/spring-data-orientdb
