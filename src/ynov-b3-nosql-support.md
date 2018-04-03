@@ -8,6 +8,10 @@ Ingesup B3 / YNOV / 2018
 
 ---
 
+# Session March 19th
+
+---
+
 ## Household
 
 - Mickael Tardy
@@ -263,9 +267,139 @@ NoSQL : toute base de données avec un modèle différent du modèle relationnel
 
 - Conception du système
 - Identification du modèle de données
-- Spécifications et exigences 
+- Spécifications et exigences
 - Choix des technologies
 - Implémentation en Proof-of-Concept
+
+---
+
+# Session April 3rd
+
+---
+
+## Engineering Step by step
+### Problem identification
+
+- Identifier la problématique
+- Identifier les objets, les acteurs et les interactions
+
+---
+
+## Engineering Step by step
+### Technology surfing
+
+- Identifier les exigences techniques
+- Choisir de la ou des bases de données
+- Choisir des languages de programmation
+
+---
+
+## Engineering Step by step
+### Environment identification
+
+- Connaissances et technologies maitrisées
+- Envie des développeurs n'est pas primaire
+
+---
+
+## Engineering Step by step
+### Stay agile
+
+- Savoir ajuster
+- Revenir en arrière n'est pas toujours une mauvaise chose
+- Changer de technologie est possible https://eng.uber.com/mysql-migration/
+
+---
+
+## Engineering Step by step
+### NoSQL choices
+
+- Mot clef : souplesse
+- Le choix doit être argumenté
+
+---
+
+## NoSQL Use cases
+
+- Data mining and Image mining
+- Social networks
+- Games, Chats, Live events
+
+---
+
+## Around the world
+
+- Netflix: https://netflix.github.io
+- Uber: https://eng.uber.com/tech-stack-part-one/, https://eng.uber.com/tech-stack-part-two/
+- Twitter: https://blog.twitter.com/engineering/en_us/topics/infrastructure/2017/the-infrastructure-behind-twitter-scale.html
+- Airbnb: https://www.forbes.com/sites/quora/2018/02/20/what-technology-stack-does-airbnb-use/
+
+---
+
+## Development Environnement
+
+- Docker : https://www.docker.com
+- VirtualBox : https://www.virtualbox.org
+- Postman : https://www.getpostman.com
+
+---
+
+## mongodb
+### Programming interfaces  
+
+- Javascript :  https://mongodb.github.io/node-mongodb-native/
+- Java : https://projects.spring.io/spring-data-mongodb/
+- Python : https://www.mongodb.com/blog/post/getting-started-with-python-and-mongodb
+
+---
+
+## mongodb
+### Use cases
+
+- https://www.mongodb.com/presentations/webinar-right-and-wrong-use-cases-mongodb
+- https://docs.mongodb.com/ecosystem/use-cases/
+
+---
+
+## Redis
+### Programming interfaces
+
+- Java : https://spring.io/guides/gs/messaging-redis/
+- Javascript : https://github.com/NodeRedis/node_redis
+- Python : http://redis-py.readthedocs.io/en/latest/, http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html
+
+---
+
+## Redis
+### Use Cases
+
+- https://www.objectrocket.com/blog/how-to/top-5-redis-use-cases/
+- http://highscalability.com/blog/2011/7/6/11-common-web-use-cases-solved-in-redis.html
+- https://dzone.com/articles/how-redis-is-used-in-practice
+
+---
+
+## Neo4J
+### Programming interfaces  
+
+- Java : https://spring.io/guides/gs/accessing-data-neo4j/
+- Javascript : https://neo4j.com/developer/javascript/
+- Python : https://neo4j.com/docs/api/python-driver/current/
+
+---
+
+## Neo4J
+### Use Cases
+
+- https://neo4j.com/use-cases/
+
+---
+
+## Playing online
+
+- http://try.redis.io/
+- http://console.neo4j.org
+- https://www.tutorialspoint.com/mongodb_terminal_online.php
 
 ---
 
