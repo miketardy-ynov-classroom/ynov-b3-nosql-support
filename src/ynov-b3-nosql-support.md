@@ -336,7 +336,7 @@ NoSQL : toute base de données avec un modèle différent du modèle relationnel
 
 ---
 
-## Development Environnement
+## Development Environment
 
 - Docker : https://www.docker.com
 - VirtualBox : https://www.virtualbox.org
