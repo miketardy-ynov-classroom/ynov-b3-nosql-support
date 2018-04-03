@@ -403,6 +403,64 @@ NoSQL : toute base de données avec un modèle différent du modèle relationnel
 
 ---
 
+## Replication
+
+- MongoDB : https://docs.mongodb.com/manual/replication/, https://docs.mongodb.com/manual/core/master-slave/
+- MySQL: https://dev.mysql.com/doc/refman/5.7/en/replication.html
+- Neo4J: https://neo4j.com/docs/operations-manual/current/clustering/high-availability/architecture/
+
+---
+
+## Scalability
+
+- Vertical vs Horozontal
+
+---
+
+## Scalability
+### Mysql
+
+- https://dzone.com/articles/challenges-of-sharding-mysql
+- MySQL Cluster (expensive): https://www.mysql.com/products/cluster/scalability.html
+
+---
+
+## Scalability
+### MongoDB
+
+- https://docs.mongodb.com/manual/sharding/
+- https://docs.mongodb.com/manual/tutorial/deploy-shard-cluster/
+- https://docs.mongodb.com/manual/reference/program/mongos/
+
+---
+
+## Cool Stuff
+### Mysql JSON
+
+- https://dev.mysql.com/doc/refman/5.7/en/json.html
+- https://scotch.io/tutorials/working-with-json-in-mysql
+
+---
+
+## Cool Stuff
+### Blockchain
+
+- https://ethereum.org
+
+---
+
+## Cool Stuff
+### Blockchain + MongoDB
+
+- https://github.com/SouthbankSoftware/mongoblock-proof
+- https://www.mongodb.com/webinar/building-applications-with-blockchain
+- https://www.slideshare.net/mongodb/webinar-building-a-blockchain-database-with-mongodb
+- https://www.slideshare.net/mixmax99/mongodb-and-blockchain
+- https://www.mongodb.com/partners/bigchaindb
+- https://dzone.com/articles/sealing-mongodb-data-on-the-blockchain
+
+---
+
 ## Resources
 
 - https://db-engines.com
