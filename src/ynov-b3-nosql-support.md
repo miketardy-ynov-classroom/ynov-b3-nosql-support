@@ -461,6 +461,25 @@ NoSQL : toute base de données avec un modèle différent du modèle relationnel
 
 ---
 
+## Logs and stuff
+
+- InfluxDB
+- Graphite
+- Prometheus
+- ELK (Elasticsearch, Logstash, Kibana)
+
+---
+
+## Logs and stuff
+
+- https://db-engines.com/en/system/Elasticsearch%3BGraphite%3BInfluxDB%3BPrometheus
+- https://logz.io/blog/influxdb-vs-elasticsearch/
+- https://www.spectory.com/blog/System%20monitoring%20with%20InfluxDB%20vs%20Elasticsearch
+- https://www.influxdata.com/blog/influxdb-markedly-elasticsearch-in-time-series-data-metrics-benchmark/
+- https://www.influxdata.com/blog/influxdb-is-27x-faster-vs-mongodb-for-time-series-workloads/
+
+---
+
 ## Resources
 
 - https://db-engines.com
